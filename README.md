@@ -3,6 +3,8 @@ Welcome to EMERALD!
 
 This is the hotel website home page, each section is developed besed on the stars hotel sites
 
+I used HTML5, CSS3 and JavaScript for the development
+
 It's developed for interview task
 
 Here is the one HTML includes all the contents
