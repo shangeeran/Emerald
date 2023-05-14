@@ -6,13 +6,7 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  font-family: "Josefin Sans", sans-serif;
-}
-
-.wrapper .multi_color_border{
-  width: 100%;
-  height: 5px;
-  background: linear-gradient(to right, #37a000 0% , #37a000 25%, #494949 25%, #494949 50%, #37a000 50%, #37a000 75%, #494949 75%, #494949 100%);
+  /* font-family: "Josefin Sans", sans-serif; */
 }
 
 .wrapper .top_nav{

@@ -1,17 +1,15 @@
-body {
+
+  footer {
+    /* background-color: rgb(220, 86, 86); */
+    /* color: blue; */
+    bottom: 0;
+    width: 100vw;
+    font-size: 16px;
     padding: 0;
     margin: 0;
     min-height: 100vh;
     display: flex;
     align-items: flex-end;
-  }
-
-  footer {
-    background-color: black;
-    color: blue;
-    bottom: 0;
-    width: 100vw;
-    font-size: 16px;
   }
 
   footer * {
@@ -20,41 +18,60 @@ body {
     outline: none;
   }
     
-  .row {
+  .footer-row {
     padding: 1em 1em;
   }
 
-  .row.primary {
+  .footer-row.primary {
     display: grid;
     grid-template-columns: 3fr 2fr 4fr;
     align-items: stretch;
+    position: absolute;
+    width: 90%;
+    /* padding: 0px 0px 0px 0px; */
+    margin: 0px 0px 220px 0px;
   }
-  .column {
+  .footer-column {
     width: 100%;
     display: flex;
     flex-direction: column;
     padding: 0 2em;
     min-height: 15em;
+    color: #ffffff;
   }
 
-  .column2 {
-    width: 100%;
+  .footer-column2 {
+    width: 40%;
     display: flex;
     flex-direction: column;
     padding: 0 7em;
-    min-height: 15em;
+    min-height: 10em;
+    padding: 0px 0px;
+    
+  }
+
+  .footer-column3 {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 7em;
+    min-height: 10em;
+    padding: 0px 0px;
+    
   }
 
   h3 {
     width: 100%;
+    height: 12%;
     text-align: left;
+    font-style: italic;
     color: #77328b;
     font-size: 30px;
     white-space: nowrap;
     font-family: "BodoniStd-BookItalic", serif;
   }
 
-  ul {
+  .footer-ul {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -106,6 +123,12 @@ body {
     color: #bac6d9;
     width: 5px;
     height: 5px;
+  }
+
+  .bottom-img {
+    /* position: ; */
+    width: 100%;
+    /* margin-bottom: 220px; */
   }
 
   @media screen and (max-width: 850px) {
