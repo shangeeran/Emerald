@@ -1,0 +1,117 @@
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  footer {
+    background-color: black;
+    color: blue;
+    bottom: 0;
+    width: 100vw;
+    font-size: 16px;
+  }
+
+  footer * {
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+  }
+    
+  .row {
+    padding: 1em 1em;
+  }
+
+  .row.primary {
+    display: grid;
+    grid-template-columns: 3fr 2fr 4fr;
+    align-items: stretch;
+  }
+  .column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+    min-height: 15em;
+  }
+
+  .column2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 7em;
+    min-height: 15em;
+  }
+
+  h3 {
+    width: 100%;
+    text-align: left;
+    color: #77328b;
+    font-size: 30px;
+    white-space: nowrap;
+    font-family: "BodoniStd-BookItalic", serif;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+
+  li:not(:first-child) {
+    margin-top: 0.8em;
+  }
+  ul li a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  ul li a:hover {
+    color: #000000;
+  }
+
+  .about p {
+    text-align: justify;
+    line-height: 2;
+    margin: 0;
+  }
+
+  input,
+  button {
+    font-size: 1em;
+    padding: 1em;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+
+  button {
+    background-color: #c7940a;
+    color: #ffffff;
+  }
+
+  div.social {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.4em;
+    flex-direction: row;
+    margin-top: 0.5em;
+  }
+  
+  .social i {
+    color: #bac6d9;
+    width: 5px;
+    height: 5px;
+  }
+
+  @media screen and (max-width: 850px) {
+    .row.primary {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  
